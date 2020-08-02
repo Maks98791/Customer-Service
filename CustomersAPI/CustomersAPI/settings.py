@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Django REST framework
+    'rest_framework',
+    # CORS
+    'corsheaders',
+    # app
     'api.apps.ApiConfig',
 ]
 
@@ -48,7 +53,15 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+     # CORS
+    'corsheaders.middleware.CorsMiddleware',
 ]
+
+# CORS
+CORS_ORIGIN_ALLOW_ALL = False
+CORS_ORIGIN_WHITELIST = (
+    'https://localhost:4200',
+)
 
 ROOT_URLCONF = 'CustomersAPI.urls'
 
@@ -99,7 +112,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
