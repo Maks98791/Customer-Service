@@ -1,1 +1,7 @@
-<p>customers-list works!</p>
+<div *ngFor="let customer of customers | async">
+    <customer-details [customer]='customer'></customer-details>
+</div>
+
+<div>
+    <button type="button" class="btn btn-danger" (click)='deleteAllCustomers()'>Delete all</button>
+</div>
