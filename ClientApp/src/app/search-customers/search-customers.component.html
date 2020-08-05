@@ -1,1 +1,16 @@
-<p>search-customers works!</p>
+<h3>Find customer by age</h3>
+
+<div class="form-group">
+    <label for="age">Age</label>
+    <input type="text" class="form-control" id="age" required="" ngModel="" age="" name="age">
+</div>
+
+<div class="btn-group">
+    <button type="submit" class="btn btn-success">Submit</button>
+</div>
+
+<ul>
+    <li *ngFor="let customer of customers">
+        <h4> {{ customer.id }} - {{ customer.name }} {{ customer.age }} </h4>
+    </li>
+</ul>

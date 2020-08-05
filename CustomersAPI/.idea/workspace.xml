@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="837c2dba-7ac7-4b9c-b061-58510640cdc5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ClientApp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomersAPI/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CustomersAPI/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/app/create-customer/create-customer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/app/create-customer/create-customer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/app/create-customer/create-customer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/app/create-customer/create-customer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/app/search-customers/search-customers.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/app/search-customers/search-customers.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/app/search-customers/search-customers.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/app/search-customers/search-customers.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,7 @@
       <workItem from="1596554695962" duration="973000" />
       <workItem from="1596589974465" duration="1281000" />
       <workItem from="1596628539863" duration="252000" />
-      <workItem from="1596637908437" duration="1198000" />
+      <workItem from="1596637908437" duration="1998000" />
     </task>
     <servers />
   </component>
@@ -98,22 +100,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1596638839414">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1596644868673">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596638839414" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1596638839414">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596644868673" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1596644868673">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596638839414" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1596638839413">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596644868673" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1596644868673">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596638839413" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1596638839414">
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596644868673" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1596644868673">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596638839414" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596644868673" />
     <state x="184" y="11" key="SettingsEditor" timestamp="1596638513544">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
