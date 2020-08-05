@@ -25,3 +25,6 @@ Project contains:
 ## Editors
 * [PyCharm](hhttps://www.jetbrains.com/pycharm/) - main IDE
 * [Visual Studio Code](https://code.visualstudio.com) - Client app IDE
+
+## Project Status
+During development
