@@ -1,7 +1,10 @@
-<div *ngFor="let customer of customers | async">
-    <customer-details [customer]='customer'></customer-details>
+<div class="card-group col-sm-6">
+    <div *ngFor="let customer of customers | async">
+        <customer-details [customer]='customer'></customer-details>
+    </div>
 </div>
 
 <div>
+    <h5>Do you want to remove all users?</h5>
     <button type="button" class="btn btn-danger" (click)='deleteAllCustomers()'>Delete all</button>
 </div>

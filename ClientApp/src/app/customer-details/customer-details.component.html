@@ -1,18 +1,12 @@
 <div *ngIf="customer">
-    <div>
-        <label>Name: </label> {{ customer.name }}
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title"> Name: {{ customer.name }} </h5>
+            <p class="card-text">Age: {{ customer.age }}</p>
+            <p class="card-text">Activity: {{ customer.active }} </p>
+            <span class="btn is-small btn-primary" *ngIf='customer.active' (click)='updateCustomer(false)'>Inactive</span>
+            <span class="btn is-small btn-primary" *ngIf='!customer.active' (click)='updateCustomer(true)'>Active</span>
+            <span class="btn is-small btn-danger" (click)='deleteCustomer()'>Delete</span>
+        </div>
     </div>
-    <div>
-        <label>Age: </label> {{ customer.age }}
-    </div>
-    <div>
-        <label>Activity: </label> {{ customer.active }}
-    </div>
-
-    <span class="btn is-small btn-primary" *ngIf='customer.active' (click)='updateCustomer(false)'>Inactive</span>
-    <span class="btn is-small btn-primary" *ngIf='!customer.active' (click)='updateCustomer(true)'>Active</span>
-
-    <span class="btn is-small btn-danger" (click)='deleteCustomer()'>Delete</span>
-
-    <hr />
 </div>
